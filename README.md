@@ -1,9 +1,3 @@
-## マイGitHub統計（組織のアクティビティを含む）
-
-![GitHub Stats](./github-stats.svg)
-
-詳細な統計は[こちら](./github-stats.md)をご覧ください。
-
 <a href="https://github.com/tomoya0318">
   <img align="left" height="170px" src="https://tomoya-readme.vercel.app/api/?username=tomoya0318&count_private=true&show_icons=true&theme=github_dark&exclude_repo=tomoya-readme&include_all_commits=true&include_orgs=true" />
 </a>
