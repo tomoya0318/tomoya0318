@@ -1,28 +1,30 @@
 {
-  "totalCommits": 250,
-  "totalPRs": 12,
-  "totalIssues": 13,
+  "totalCommits": 446,
+  "totalPRs": 19,
+  "totalIssues": 18,
   "languages": {
     "Python": 1243255,
     "Dockerfile": 6602,
-    "Makefile": 627,
-    "Ruby": 28998,
-    "TypeScript": 94434,
-    "Shell": 557978,
-    "HTML": 55381,
-    "JavaScript": 140368,
-    "CSS": 55443,
+    "Makefile": 898,
+    "TypeScript": 244643,
+    "JavaScript": 149555,
+    "Ruby": 114530,
+    "Shell": 558302,
+    "HTML": 79730,
+    "CSS": 60934,
     "ANTLR": 26257,
-    "PHP": 342
+    "PHP": 342,
+    "SCSS": 1249,
+    "PLpgSQL": 4104
   },
   "organizations": {
-    "組織名1": {
-      "totalCommits": 0,
+    "TestMate-Team": {
+      "totalCommits": 46,
       "totalPRs": 0,
       "totalIssues": 0,
-      "repositories": 0
+      "repositories": 1
     },
-    "組織名2": {
+    "Programming-Training": {
       "totalCommits": 0,
       "totalPRs": 0,
       "totalIssues": 0,
@@ -34,6 +36,16 @@
       "commits": 62,
       "prs": 0,
       "issues": 1
+    },
+    "tomoya0318/andoroid-tester": {
+      "commits": 2,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/android-testful": {
+      "commits": 18,
+      "prs": 0,
+      "issues": 0
     },
     "tomoya0318/atcoder": {
       "commits": 11,
@@ -70,6 +82,11 @@
       "prs": 0,
       "issues": 0
     },
+    "tomoya0318/hello_app": {
+      "commits": 6,
+      "prs": 0,
+      "issues": 0
+    },
     "tomoya0318/Hit-and-Blow": {
       "commits": 12,
       "prs": 0,
@@ -95,13 +112,33 @@
       "prs": 1,
       "issues": 1
     },
+    "tomoya0318/sample_app": {
+      "commits": 19,
+      "prs": 0,
+      "issues": 0
+    },
     "tomoya0318/style-adherence-forecast": {
       "commits": 0,
       "prs": 0,
       "issues": 0
     },
+    "tomoya0318/testmate": {
+      "commits": 100,
+      "prs": 7,
+      "issues": 5
+    },
     "tomoya0318/tomoya0318": {
-      "commits": 11,
+      "commits": 15,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/toy_app": {
+      "commits": 1,
+      "prs": 0,
+      "issues": 0
+    },
+    "TestMate-Team/TestMete": {
+      "commits": 46,
       "prs": 0,
       "issues": 0
     }

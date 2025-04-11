@@ -11,35 +11,35 @@
     <g transform="translate(25, 40)">
       <text x="0" y="0" class="title">tomoya0318's GitHub Stats</text>
       <text x="0" y="40" class="stat-title">Total Contributions</text>
-      <text x="0" y="70" class="stat">Commits: 250</text>
-      <text x="150" y="70" class="stat">PRs: 12</text>
-      <text x="250" y="70" class="stat">Issues: 13</text>
+      <text x="0" y="70" class="stat">Commits: 446</text>
+      <text x="150" y="70" class="stat">PRs: 19</text>
+      <text x="250" y="70" class="stat">Issues: 18</text>
       
       <text x="500" y="40" class="stat-title">Top Languages</text>
       
-      <text x="500" y="200" class="stat">Python: 56.3%</text>
+      <text x="500" y="200" class="stat">Python: 49.9%</text>
     
-      <text x="500" y="225" class="stat">Shell: 25.3%</text>
+      <text x="500" y="225" class="stat">Shell: 22.4%</text>
     
-      <text x="500" y="250" class="stat">JavaScript: 6.4%</text>
+      <text x="500" y="250" class="stat">TypeScript: 9.8%</text>
     
-      <text x="500" y="275" class="stat">TypeScript: 4.3%</text>
+      <text x="500" y="275" class="stat">JavaScript: 6.0%</text>
     
-      <text x="500" y="300" class="stat">CSS: 2.5%</text>
+      <text x="500" y="300" class="stat">Ruby: 4.6%</text>
     
       
       <text x="0" y="130" class="stat-title">Organization Contributions</text>
       
       <g transform="translate(25, 180)">
-        <text x="0" y="0" class="stat-title">Organization: 組織名1</text>
-        <text x="0" y="25" class="stat">Commits: 0</text>
+        <text x="0" y="0" class="stat-title">Organization: TestMate-Team</text>
+        <text x="0" y="25" class="stat">Commits: 46</text>
         <text x="150" y="25" class="stat">PRs: 0</text>
         <text x="250" y="25" class="stat">Issues: 0</text>
-        <text x="350" y="25" class="stat">Repos: 0</text>
+        <text x="350" y="25" class="stat">Repos: 1</text>
       </g>
     
       <g transform="translate(25, 250)">
-        <text x="0" y="0" class="stat-title">Organization: 組織名2</text>
+        <text x="0" y="0" class="stat-title">Organization: Programming-Training</text>
         <text x="0" y="25" class="stat">Commits: 0</text>
         <text x="150" y="25" class="stat">PRs: 0</text>
         <text x="250" y="25" class="stat">Issues: 0</text>
