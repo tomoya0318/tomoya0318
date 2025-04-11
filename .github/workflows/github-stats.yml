@@ -2,18 +2,21 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎日実行
+    - cron: '0 0 * * *'  # 毎日UTCの0時に実行
   workflow_dispatch:     # 手動実行も可能
 
 permissions:
-  contents: write
+  contents: write        # リポジトリコンテンツへの書き込み権限
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}  # プライベートリポジトリアクセス用のトークン
+        
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
