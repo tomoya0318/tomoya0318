@@ -1,10 +1,5 @@
-const { Octokit } = require('@octokit/rest');
+// CommonJSモジュールで動的インポートを使用する方法
 const fs = require('fs-extra');
-
-// GitHub API クライアントを初期化
-const octokit = new Octokit({
-  auth: process.env.GH_TOKEN,
-});
 
 // ユーザー名
 const username = 'tomoya0318';
@@ -15,7 +10,25 @@ const organizations = ['組織名1', '組織名2']; // 実際の組織名に置�
 // 除外したいリポジトリ
 const excludeRepos = ['tomoya-readme', 'TestMate'];
 
-async function generateStats() {
+// メイン処理を実行する非同期関数
+async function run() {
+  try {
+    // 動的インポートを使用
+    const { Octokit } = await import('@octokit/rest');
+    
+    // GitHub API クライアントを初期化
+    const octokit = new Octokit({
+      auth: process.env.GH_TOKEN,
+    });
+    
+    await generateStats(octokit);
+  } catch (error) {
+    console.error('エラーが発生しました:', error);
+    process.exit(1);
+  }
+}
+
+async function generateStats(octokit) {
   try {
     console.log('GitHub統計の生成を開始...');
     
@@ -41,7 +54,7 @@ async function generateStats() {
     
     // 個人リポジトリの統計を集計
     for (const repo of filteredUserRepos) {
-      await processRepo(repo.owner.login, repo.name, stats);
+      await processRepo(octokit, repo.owner.login, repo.name, stats);
     }
 
     // 組織リポジトリの統計を取得
@@ -67,7 +80,7 @@ async function generateStats() {
         
         // 組織の各リポジトリについて統計を集計
         for (const repo of filteredOrgRepos) {
-          await processRepo(org, repo.name, stats, true);
+          await processRepo(octokit, org, repo.name, stats, true);
         }
       } catch (error) {
         console.error(`組織 ${org} の情報取得中にエラー: ${error.message}`);
@@ -91,7 +104,7 @@ async function generateStats() {
   }
 }
 
-async function processRepo(owner, repo, stats, isOrg = false) {
+async function processRepo(octokit, owner, repo, stats, isOrg = false) {
   try {
     console.log(`リポジトリ ${owner}/${repo} の情報を処理中...`);
     
@@ -291,5 +304,5 @@ function generateMarkdown(stats) {
   return md;
 }
 
-// メイン処理を実行
-generateStats();
+// 実行
+run();
