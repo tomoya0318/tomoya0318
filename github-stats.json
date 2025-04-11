@@ -1,0 +1,109 @@
+{
+  "totalCommits": 250,
+  "totalPRs": 12,
+  "totalIssues": 13,
+  "languages": {
+    "Python": 1243255,
+    "Dockerfile": 6602,
+    "Makefile": 627,
+    "Ruby": 28998,
+    "TypeScript": 94434,
+    "Shell": 557978,
+    "HTML": 55381,
+    "JavaScript": 140368,
+    "CSS": 55443,
+    "ANTLR": 26257,
+    "PHP": 342
+  },
+  "organizations": {
+    "組織名1": {
+      "totalCommits": 0,
+      "totalPRs": 0,
+      "totalIssues": 0,
+      "repositories": 0
+    },
+    "組織名2": {
+      "totalCommits": 0,
+      "totalPRs": 0,
+      "totalIssues": 0,
+      "repositories": 0
+    }
+  },
+  "repos": {
+    "tomoya0318/analyze-code": {
+      "commits": 62,
+      "prs": 0,
+      "issues": 1
+    },
+    "tomoya0318/atcoder": {
+      "commits": 11,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/Board": {
+      "commits": 12,
+      "prs": 11,
+      "issues": 11
+    },
+    "tomoya0318/ChatDev": {
+      "commits": 3,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/CodeTokenizer": {
+      "commits": 2,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/devreplay": {
+      "commits": 1,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/devreplay-pattern-generator": {
+      "commits": 1,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/Gumtree": {
+      "commits": 3,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/Hit-and-Blow": {
+      "commits": 12,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/learn-react": {
+      "commits": 18,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/meeting-spliter": {
+      "commits": 8,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/nextjs-training": {
+      "commits": 6,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/PM25": {
+      "commits": 100,
+      "prs": 1,
+      "issues": 1
+    },
+    "tomoya0318/style-adherence-forecast": {
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
+    },
+    "tomoya0318/tomoya0318": {
+      "commits": 11,
+      "prs": 0,
+      "issues": 0
+    }
+  }
+}
