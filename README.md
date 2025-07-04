@@ -1,23 +1,25 @@
-<a href="https://github.com/tomoya0318">
-  <img align="left" height="170px" src="https://tomoya-readme.vercel.app/api/?username=tomoya0318&count_private=true&show_icons=true&theme=github_dark&exclude_repo=tomoya-readme&include_all_commits=true&include_orgs=true" />
-</a>
-<a href="https://github.com/tomoya0318">
-  <img align="left" height="170px" src="https://tomoya-readme.vercel.app/api/top-langs/?username=tomoya0318&layout=compact&theme=github_dark&exclude_repo=tomoya-readme&include_all_commits=true&include_orgs=true" />
-</a>
-<a href="https://github.com/tomoya0318">
-  <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tomoya0318&theme=github_dark" />
-</a>
-<!--
-**tomoya0318/tomoya0318** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<h1>
+  👋  Hi, I'm Tomoya!
+</h1>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <a href="https://github.com/tomoya0318">
+    <img src="https://github-readme-stats.vercel.app/api?username=tomoya0318&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Tomoya's GitHub Stats" />
+  </a>
+  <a href="https://github.com/tomoya0318">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tomoya0318&layout=compact&theme=github_dark" alt="Tomoya's Top Languages" />
+  </a>
+</div>
+
+---
+
+### 🛠️ 私の技術スタック (My Tech Stack)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=typescript,javascript,python,html,css" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs" />
+  <img src="https://skillicons.dev/icons?i=docker" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</p>
+
+---
