@@ -3,6 +3,10 @@
   👋  Hi, I'm Tomoya!
 </h1>
 
+![GitHub stats](https://github-readme-stats-kyurururn2552-k275nsgz.leapcell.dev/api/?username=tomoya0318&theme=github_dark)
+
+![GitHub stats](https://github-readme-stats-kyurururn2552-k275nsgz.leapcell.dev/api/top-langs/?username=tomoya0318&layout=compact&theme=github_dark)
+
 <!-- <div align="center">
   <a href="https://github.com/tomoya0318">
     <img height="150px" src="https://github-readme-stats.vercel.app/api?username=tomoya0318&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" alt="Tomoya's GitHub Stats" />
