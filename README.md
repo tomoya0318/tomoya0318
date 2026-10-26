@@ -1,4 +1,4 @@
-<h1>👋 Hi, I'm Tomoya!</h1>
+<h1>👋 Hi, I'm Tomoyan!</h1>
 
 <div align="center">
   <a href="https://github.com/tomoya0318">
